@@ -1,0 +1,172 @@
+/* Structure */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  border-bottom: 1px solid black;
+  line-height: 2;
+  font-size: 20px;
+}
+
+/* Hero */
+.banner-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* News and Socials */
+
+.socials p {
+  font-size: 24px;
+}
+
+.socials a {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .socials {
+    margin-top: 25px;
+    padding-left: 0 !important;
+    margin-left: 15px;
+    border-left: 0 !important;
+  }
+}
+
+/* Slider */
+
+.heading p {
+  max-width: 700px;
+  font-size: 20px;
+}
+
+.slider-background {
+  background-color: black;
+  position: absolute;
+  height: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.scrollableRow {
+  overflow-x: scroll;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.description {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 950px){
+  .wrapper {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+}
+
+/* Categories */
+
+.categories-list {
+  border: 1px solid #cccccc;
+  list-style-type: none;
+  border-radius: 30px;
+}
+
+.category-description {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* Email sign up */
+
+.background-dark {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  line-height: 2;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.disclaimer {
+  width: 700px;
+}
+
+@media screen and (min-width: 1200px) {
+  .news h4 {
+    font-size: 20px;
+  }
+  .news img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1128px) {
+  .disclaimer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1128px)  and (min-width: 744px) {
+ .footer-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
+ }
+
+ .footer-list2 {
+   flex-basis: 33.3%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-msg {
+    order: 2;
+  }
+
+  .banner-msg h2 {
+    font-size: 22px;
+  }
+
+  .flexible {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+
+  .category-description {
+   font-size: 16px;
+   margin-top: 0;
+  }
+  
+}
+
+
